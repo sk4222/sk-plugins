@@ -1,0 +1,132 @@
+/* Clearfix
+*********************************************************************/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+
+.cj-shortcode-generator-lightbox{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 98%;
+	height: 98%;
+	padding: 1%;
+	background: rgba(0,0,0,0.5);
+	z-index: 10000000;
+}
+
+.cj-shortcode-generator-lightbox,
+.cj-shortcode-form{
+	display: none;
+}
+
+.cj-shortcode-generator{
+	width: auto;
+	height: 98%;
+	background: #fff;
+	z-index: 10000001;
+	overflow: hidden;
+}
+.cj-shortcode-generator h3.heading{
+	margin: 0px;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.cj-shortcode-generator-close{
+	float: right;
+	text-decoration: none;
+	color: #222;
+	font-size: 22px !important;
+}
+
+.cj-shortcode-footer{
+	border-bottom: 1px solid #ddd;
+}
+.cj-shortcode-display-container{
+	float: left;
+	width: 79%;
+	border-right: 1px solid #ddd;
+}
+.cj-shortcode-insert-container{
+	text-align: right;
+	float: right;
+	width: 20%;
+}
+
+#cj-shortcode{
+	display: none;
+}
+#cj-shortcode-panel{
+	height: 100%;
+	overflow: scroll !important;
+}
+
+.shortcode-container-code{
+	padding: 15px 10px;
+	border-bottom: 1px solid #ddd;
+	background: #f9f9f9;
+}
+.shortcode-container-code code{
+	padding: 0px;
+	background: none;
+	line-height: 1.8;
+}
+
+.shortcode-container-code code .p-key{
+	color: red;
+}
+.shortcode-container-code code .p-val{
+	color: green;
+}
+
+.cj-shortcodes-dropdown{
+	display: none;
+}
+
+.shortcode-option-field{
+	padding: 10px;
+	border-bottom: 0px solid #ddd;
+	margin-bottom: 0px;
+}
+
+
+.shortcode-option-field h3.heading{
+	margin: 0px 0 0 0 !important;
+	padding: 0px 0 0px 0 !important;
+	border-bottom: 0px;
+}
+.cj-shortcode-description{
+	margin: 0px;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.shortcode-option-field .paragraph{
+	margin: 0px 0;
+	padding: 0px;
+}
+
+.shortcode-option-field label{
+	font-weight: bold;
+	display:block;
+	margin-top: -5px;
+}
+
+.form-desc{
+	font-style: italic;
+	color: #999;
+}
+
+
+.shortcode-option-field input[type="text"],
+.shortcode-option-field input[type="number"],
+.shortcode-option-field textarea,
+.shortcode-option-field select{
+	min-width: 400px;
+}
